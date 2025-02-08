@@ -1,0 +1,11 @@
+meta:
+  author: fklft
+  name: example-template
+
+variables:
+  project:
+    name:
+    test:
+
+  something:
+  else:
