@@ -1,0 +1,6 @@
+project:
+  name: 
+  slug: "{{ .Values.project.name | lowercase | replace ' ' '-' | replace '_' '-' }}"
+
+something:
+else:
