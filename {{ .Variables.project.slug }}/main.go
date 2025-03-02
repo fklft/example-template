@@ -1,4 +1,7 @@
 package main
 
-{{ .Values.something }}
-{{ .Values.else }}
+import "github.com/example/example/cmd"
+
+func main() {
+	cmd.Execute()
+}
